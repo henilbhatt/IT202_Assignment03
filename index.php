@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <form action="gratuitycalc.php" method="post">
+<div class="topnav">
+
+    <div class="navbar-centere">
+      <h1>Gratuity Calculator</h1>
+    </div>
+</div>
+
+
+    
+    
+<div class="maincontent1">
+      <h2>Subtotal:</h2>
+      <center><input type="text" name="subtotal" size=35 maxlength=50 value="0"></center>
+</div>     
+
+<div class="maincontent2">
+      <h2>Gratuity:</h2>
+      <center><input type="text" name="gratuity" size=35 maxlength=50 value="0"></center>
+</div>  
+
+
+
+<div class="maincontent5">
+    <br><br>
+    <center>
+        <p> 
+        <input type="submit" name="calculate" value="Calculate" />
+        </p>
+    </center>
+</div>  
+
+
+<div class="footer">
+  <p>Copyright © - IT202-ASSIGNMENT 03  </p>
+</div>
+   
+</body>   
